@@ -5,6 +5,8 @@ Credit to Tech With Tim for his tutorial.
 This is a Python website.
 
 <h2>Technology Used</h2>
-* Flask
+<li>Flask</li>
+<li>Flask Login</li>
+<li>Flask SQLAlchemy</li>
 
-(This README is still being written)
+### (This README is still being written)
