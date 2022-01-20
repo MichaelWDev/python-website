@@ -1,1 +1,8 @@
-// NOTE: If you wanted to make your own Javascript.
+function deleteNote(noteId) {
+	fetch('/delete-note', {
+		method: 'POST',
+		body: JSON.stringify({ noteId: noteId }),
+	}).then((_res) => {
+		window.location.href = "/"; // Reloads the window.
+	});
+}
